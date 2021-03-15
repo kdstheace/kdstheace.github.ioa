@@ -7,13 +7,17 @@ sidebar: true
 order: 1
 ---
 
-## Hello, World!
+# はじめまして!
 
-Hi, I'm **DaeIn Lee**, *a.k.a.* **Lazy Ren**.<br>
-I'm currently working at **[SAP Labs Korea](https://www.sap.com/korea/about/labs-korea.html)**, and previsouly was CSE student of **[Hanyang University](https://www.hanyang.ac.kr/)**.<br>
-I like to solve brain teasing problems in field of CSE (probably the reason I liked multi-core programming / OS courses).<br>
-And I'm also a [heavy gamer](https://steamcommunity.com/id/lazyren)!<br>
-Pleaseh check my [resume](/resume/) if you wish to know more about me.
+##キム ドンス(金東秀, Dongsoo Kim)と申します。
+私は**韓国外大付属外国語高校**で日本語を専攻し**延世大学校**で経営学を専攻しました。
+以前金融ITプラットホームでインターンをしたことがきっかけでIT技術で世界を豊かにすることを
+目標として頑張っています。
+私はIT技術でアイディアを具現すること、新しいサービスで人の生活が変えられること、
+そして、開発すること自体から感じられる達成感が大好きです！
+人が自由に自分のコンテンツを作り、ビジネスができるプラットホーム、つまり新しい生態系を
+作ることが私の夢です！
+ぜひ、私のことが知りたい方はぜひ、この [履歴書](/resume/)をご覧ください。
 
 ***
 
@@ -21,13 +25,13 @@ Pleaseh check my [resume](/resume/) if you wish to know more about me.
 
 ***
 
-## Work Hard to be Lazy
+## チャレンジ精神
 
 _My motto to live by._
 
 > “Working hard to be lazy basically means investing the extra effort (working hard) at first so that it will pay off in the long run (be lazy).”
 
-## Re-evaluate your work processes
+## 緒戦する根性
 
 The lazy man will try to accomplish 2 hours worth of work in 1 hour’s time but sometimes at the expense of the work’s quality.<br>
 Think of it as **efficiency = quality/time** taken (referencing speed = distance/over).<br>
