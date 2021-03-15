@@ -1,32 +1,48 @@
-// Copyright (c) 2017 Florian Klampfer <https://qwtel.com/>
+// Copyright (c) 2019 Florian Klampfer <https://qwtel.com/>
 
-.sixteen-nine {
-  @include aspect-ratio(16, 9);
-}
-
-.layout-projects, .layout-project, .layout-welcome  {
-  $pad: 1rem;
+main:not(.layout-resume) {
+  $gutter: 1rem;
 
   .columns {
-    margin-left: -$pad;
+    margin-left: -$gutter;
     display: flex;
     flex-wrap: wrap;
+    contain: content;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    padding-right: 1rem;
+    margin-right: -1rem;
 
     &::after {
-      @include clearfix();
+      @extend .clearfix;
     }
   }
 
   .column {
     float: left;
-    padding-left: $pad;
-    margin-bottom: $pad;
+    padding-left: $gutter;
+    margin-bottom: 2rem;
     width: 100%;
     display: flex;
   }
 
   @media screen and (min-width: $break-point-1) {
+    .columns {
+      margin-left: -1rem - $gutter;
+      margin-right: -2rem;
+    }
     .column-1-2 { width: 50%; }
+  }
+
+  @media screen and (min-width: $break-point-dynamic) {
+    .columns-break {
+      $helper: $content-width-5 / 2 - $content-margin-5 + ($gutter * 2);
+      width: calc(50vw + #{$helper});
+      > .column-1-2,
+      > .column-1 {
+        width: ($content-width-5 / 2) + ($gutter / 2);
+      }
+    }
   }
 
   @media print {
@@ -41,31 +57,51 @@
   }
 
   .project-card {
+    @extend .color-transition;
     width: 100%;
-    background: $body-bg;
-    border: 1px solid $border-color;
-    padding-bottom: .75rem;
-    margin-bottom: 1.5rem;
+    color: var(--gray-text);
+    background-color: var(--gray-bg);
+    padding-bottom: 1rem;
+    position: relative;
     overflow: hidden;
-    border-radius: .25rem;
+    box-shadow: .125rem .125rem 1rem rgba(0, 0, 0, 0.2);
     contain: content;
+    border-radius: $border-radius;
 
     page-break-inside: avoid;
 
-    > a > .project-card-img {
-      margin-bottom: 0;
-      border-bottom: 1px solid $border-color;
-      border-top: 1px solid $border-color;
-      position: relative;
-      border-top-left-radius: .25rem;
-      border-top-right-radius: .25rem;
-      top: -1px;
-      > img { transition: transform 500ms; }
+    transition: transform 500ms ease;
+    will-change: transform;
+    &:hover {
+      transform: translateY(-0.25rem);
+      transition: transform 250ms ease;
     }
 
-    > a:hover > .project-card-img > img {
-      transition: transform 250ms;
-      transform: scale(1.025);
+    > a.flip-project {
+      display: block;
+
+      .project-card-img {
+        margin-bottom: 0;
+        img {
+          display: block;
+          border-top-left-radius: $border-radius;
+          border-top-right-radius: $border-radius;
+        }
+      }
+    }
+
+    a {
+      position: relative;
+      z-index: 1;
+
+      &.fill-card {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+      }
     }
 
     > .project-card-title, > .project-card-text {
@@ -75,20 +111,20 @@
 
     > .project-card-title {
       display: block;
-      font-size: 1rem;
-      margin-top: 0.75rem;
-      margin-bottom: 0.25rem;
+      font-size: 1.08rem;
+      margin-top: .75rem;
+      margin-bottom: .25rem;
       color: inherit;
     }
 
     > .project-card-text {
-      margin: 0.25rem 0;
+      margin: .25rem 0;
     }
   }
 
   .column-1 > .project-card {
     > .project-card-title {
-      font-size: 1.17rem;
+      font-size: 1.2rem;
     }
 
     > .project-card-text {

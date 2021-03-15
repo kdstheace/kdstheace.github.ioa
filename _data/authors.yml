@@ -2,38 +2,34 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              DONGSOO KIM
-  email:             hiswing91@gmail.com
+  name:              DaeIn Lee
+  email:             daein0lee@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    HANA Core Developer at [SAP Labs Korea](https://www.sap.com/korea/about/labs-korea.html).<br>
+    Please check my [Resume][resume] to find out more about me!<br>
 
-    Open `_data/authors.yml` to edit this text.
-
-    [Download][kit]{:.btn.btn-primary}
-
-    [kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v7.5.2.zip
+    [resume]: /resume/
 
   # This photo will be used in the about section
   picture:
-    path:            https://placehold.it/128x128
+    path:            /assets/img/seattle.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+    # srcset:
+    #   1x:
+    #   2x:
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           mailto:<mail@domain.tld>
-    # rss:             https://<url>/feed.xml
+    linkedin:        daein-lee-3b6ba9139
+    github:          lazyren
+    stackoverflow:   4294737
+    email:           lazy0ren@gmail.com
+    # rss:             https://lazyren.github.io/feed.xml
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
@@ -51,38 +47,34 @@ author1:
     # deviantart:      <username>
     # ello:            <username>
     # twitch:          <username>
-    # steam:           <number>
+    # steam:           76561198031392006
     # reddit:          <username>
     # tumblr:          <username>
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    # download:        https://github.com/qwtel/hydejack-starter-kit/archive/v7.5.0.zip
+    # download:        <url>
+    # keybase:         <username>
 
 # Another author (optional)
-author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+# author2:
+#   name:              <firtname> <lastname>
+#   email:             <mail@domain.tld>
+#   about:             |
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+#     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-    Open `_data/authors.yml` to edit this text.
-  picture:           https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
-  accent_color:      '#268bd2'
-  accent_image:
-    background:      '#202020'
-    overlay:         false
+#     Open `_data/authors.yml` to edit this text.
+
+#   picture:           https://placehold.it/128x128
+#   twitter:           <username>
+#   github:            <username>

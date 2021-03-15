@@ -1,78 +1,109 @@
 #!/usr/bin/env node
 
-const { promisify } = require('util');
-
-const { resolve } = require('path');
+const { resolve } = require("path");
 const fs = require('fs');
+const { readdir, rename, unlink, readFile, writeFile, access } = fs.promises;
+const { promisify } = require('util');
+const exec = promisify(require('child_process').exec);
 
-const vPrev = require('../assets/version.json').version;
-const vNext = require('../package.json').version;
+const vPrev = require("../assets/version.json").version;
+const vNext = require("../package.json").version;
 
-const readdir = promisify(fs.readdir);
-const rename = promisify(fs.rename);
-const unlink = promisify(fs.unlink);
-const stat = promisify(fs.stat);
-const readFile = promisify(fs.readFile);
-const writeFile = promisify(fs.writeFile);
-
-
-const ENC = 'utf-8';
+const ENC = "utf-8";
 
 const FILES = [
-  resolve('./_data/authors.yml'),
-  resolve('./_includes/scripts.html'),
-  resolve('./_includes/footer.html'),
-  resolve('./_includes/head/meta.html'),
-  resolve('./_includes/head/links.html'),
-  resolve('./_includes/head/styles.html'),
-  resolve('./_includes/header.txt'),
-  resolve('./_js/lib/version.js'),
-  resolve('./_layouts/compress.html'),
-  resolve('./assets/version.json'),
-  resolve('./.scripts/release.sh'), // TODO: name
-];
+  "./jekyll-theme-hydejack.gemspec",
+  "./_includes/body/scripts.html",
+  "./_includes/body/footer.html",
+  "./_includes/head/meta-static.html",
+  "./_includes/head/links-static.html",
+  "./_includes/head/styles-inline.html",
+  "./_includes/head/styles-no-inline.html",
+  "./_includes/header.txt",
+  "./_includes/js/service-worker.js",
+  "./_layouts/compress.html",
+  "./_js/lib/version.js",
+].map(f => resolve(f));
 
-// <https://stackoverflow.com/a/45130990/870615>
+/**
+ * @param {string} dir 
+ * @returns {Promise<string[]>}
+ * @see https://stackoverflow.com/a/45130990/870615
+ */
 async function getFiles(dir) {
-  const subdirs = await readdir(dir);
-  const files = await Promise.all(subdirs.map(async (subdir) => {
-    const res = resolve(dir, subdir);
-    return (await stat(res)).isDirectory() ? getFiles(res) : res;
+  const dirents = await readdir(dir, { withFileTypes: true });
+  const files = await Promise.all(dirents.map((dirent) => {
+    const res = resolve(dir, dirent.name);
+    return dirent.isDirectory() ? getFiles(res) : [res];
   }));
-  return files.reduce((a, f) => a.concat(f), []);
+  return Array.prototype.concat(...files);
 }
 
 (async function main() {
   try {
-    const prev = vPrev.replace(/\./g, '\\.');
-    const prevRegExp = new RegExp(prev, 'g');
+    const prev = vPrev.replace(/\./g, "\\.");
+    const prevRegExp = new RegExp(prev, "g");
 
-    const pFiles = Promise.all(FILES
-      .map(f => [f, readFile(f, ENC)])
-      .map(async ([f, p]) => {
-        const content = await p;
-        return [f, content.replace(prevRegExp, vNext)];
-      })
-      .map(async (p) => {
-        const [f, content] = await p;
-        return writeFile(f, content, ENC);
-      }));
+    // const args = await Promise.all([
+    //   getFiles("./hyde/_posts"),
+    //   getFiles("./hydejack/_posts"),
+    //   getFiles("./_projects"),
+    //   getFiles("./docs"),
+    // ]);
+    const args = [];
+      
+    const files = Array.prototype.concat.call(FILES, ...args);
 
-    const pJSCSS = Promise.all([
-      unlink(
-        resolve(`./assets/js/hydejack-${vPrev}.js`),
-      ),
-      rename(
-        resolve(`./assets/css/hydejack-${vPrev}.css`),
-        resolve(`./assets/css/hydejack-${vNext}.css`),
-      ),
-    ]);
+    const pFiles = Promise.all(
+      files
+        .filter(([f]) => !f.startsWith("."))
+        .map(f => [f, readFile(f, ENC)])
+        .map(async ([f, p]) => {
+          const content = await p;
 
-    await Promise.all([pFiles, pJSCSS]);
+          // if (f.includes("CHANGELOG")) {
+          //   const pattern = new RegExp(`([^v])${prev}`, "g");
+          //   return [f, content.replace(pattern, `$1${vNext}`)];
+          // }
+
+          return [f, content.replace(prevRegExp, vNext)];
+        })
+        .map(async p => {
+          const [f, content] = await p;
+          return writeFile(f, content, ENC);
+        })
+    );
+
+    const pUnlink = Promise.all(
+      (await getFiles('./assets/js'))
+        .filter(f => f.match(/assets\/js\/*hydejack-*/i))
+        .map(unlink)
+    );
+
+    const pJSCSS = rename(
+      resolve(`./assets/css/hydejack-${vPrev}.css`),
+      resolve(`./assets/css/hydejack-${vNext}.css`)
+    );
+
+    const pSearchW = rename(
+      resolve(`./assets/js/search-worker-${vPrev}.js`),
+      resolve(`./assets/js/search-worker-${vNext}.js`)
+    );
+
+    await Promise.all([pUnlink, pFiles, pJSCSS, pSearchW]);
+
+    await writeFile('./assets/version.json', JSON.stringify({ version: vNext, prevVersion: vPrev }, null, 2));
+
+    try { 
+      await access('../.scripts/version.js', fs.constants.X_OK);
+      await exec('../.scripts/version.js');
+    } catch (e) { 
+      console.warn(e)
+    }
 
     process.exit(0);
   } catch (e) {
     console.error(e); // eslint-disable-line
     process.exit(1);
   }
-}());
+})();

@@ -1,22 +1,28 @@
 {% if resume.education.size > 0 %}
 <section>
   <div class="npb">
-  <h2 id="education" class="h3 faded hr">
+  <h2 id="education" class="h3 hr-bottom">
     {{ strings.resume.education | default:"Education" }}
     <span class="symbol {{ icons.education | default:'icon-library' }}"></span>
   </h2>
   {% for edu in resume.education %}
   <section>
-    <header class="{% unless forloop.first %}mt4{% endunless %}">
+    <header class="{% unless forloop.first %}mt2{% endunless %}">
+      {% if edu.certificate %}
+      <p class="faded">
+        <time datetime="{{ edu.date | date_to_xmlschema}}">{{ edu.date | date:from_to_format }}</time>
+      </p>
+      <h3 class="h4 faded">
+        {% capture certificate %}<span class="bc">{{ edu.certificate }}</span>{% endcapture %}
+        {{ strings.resume.certificate
+          | default:"<!--certificate-->"
+          | replace:"<!--certificate-->", certificate
+        }}
+      </h3>
+      {% else %}
       {% if edu.startDate.size > 0 %}
         <p class="faded">
-          <time datetime="{{ edu.startDate }}">{{ edu.startDate | date:from_to_format }}</time>
-          {{ from_to_separator }}
-          {% if edu.endDate.size > 0 %}
-            <time datetime="{{ edu.endDate }}">{{ edu.endDate | date:from_to_format }}</time>
-          {% else %}
-            <em>{{ present }}</em>
-          {% endif %}
+          {% include components/from-to.html from=edu.startDate to=edu.endDate format=from_to_format %}
         </p>
       {% endif %}
       <h3 class="h4 faded" {% if edu.endDate.size > 0 %}property="alumniOf" typeof="EducationalOrganization"{% endif %}>
@@ -32,14 +38,17 @@
           | replace:"<!--gpa-->", gpa
         }}
       </h3>
+      {% endif %}
     </header>
 
+    {% if edu.courses.size > 0 %}
     <h4 class="sr-only">{{ strings.resume.courses | default:"Courses" }}</h4>
     <ul>
       {% for course in edu.courses %}
         <li>{{ course }}</li>
       {% endfor %}
     </ul>
+    {% endif %}
   </section>
   {% if forloop.first %}</div>{% endif %}
   {% endfor %}
