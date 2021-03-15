@@ -1,0 +1,98 @@
+// Copyright (c) 2017 Florian Klampfer <https://qwtel.com/>
+
+.sixteen-nine {
+  @include aspect-ratio(16, 9);
+}
+
+.layout-projects, .layout-project, .layout-welcome  {
+  $pad: 1rem;
+
+  .columns {
+    margin-left: -$pad;
+    display: flex;
+    flex-wrap: wrap;
+
+    &::after {
+      @include clearfix();
+    }
+  }
+
+  .column {
+    float: left;
+    padding-left: $pad;
+    margin-bottom: $pad;
+    width: 100%;
+    display: flex;
+  }
+
+  @media screen and (min-width: $break-point-1) {
+    .column-1-2 { width: 50%; }
+  }
+
+  @media print {
+    .columns {
+      display: block;
+    }
+
+    .column {
+      display: block;
+      width: 50%;
+    }
+  }
+
+  .project-card {
+    width: 100%;
+    background: $body-bg;
+    border: 1px solid $border-color;
+    padding-bottom: .75rem;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    border-radius: .25rem;
+    contain: content;
+
+    page-break-inside: avoid;
+
+    > a > .project-card-img {
+      margin-bottom: 0;
+      border-bottom: 1px solid $border-color;
+      border-top: 1px solid $border-color;
+      position: relative;
+      border-top-left-radius: .25rem;
+      border-top-right-radius: .25rem;
+      top: -1px;
+      > img { transition: transform 500ms; }
+    }
+
+    > a:hover > .project-card-img > img {
+      transition: transform 250ms;
+      transform: scale(1.025);
+    }
+
+    > .project-card-title, > .project-card-text {
+      text-align: center;
+      padding: 0 1rem;
+    }
+
+    > .project-card-title {
+      display: block;
+      font-size: 1rem;
+      margin-top: 0.75rem;
+      margin-bottom: 0.25rem;
+      color: inherit;
+    }
+
+    > .project-card-text {
+      margin: 0.25rem 0;
+    }
+  }
+
+  .column-1 > .project-card {
+    > .project-card-title {
+      font-size: 1.17rem;
+    }
+
+    > .project-card-text {
+      font-size: 1rem;
+    }
+  }
+}

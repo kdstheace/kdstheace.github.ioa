@@ -1,0 +1,45 @@
+{% if resume.volunteer.size > 0 %}
+<section>
+  <div class="npb">
+  <h2 id="volunteer" class="h3 faded hr">
+    {{ strings.resume.volunteer | default:"Volunteer" }}
+    <span class="symbol {{ icons.volunteer | default:'icon-earth' }}"></span>
+  </h2>
+  {% for vol in resume.volunteer %}
+  <section class="no-page-break">
+    <header class="{% unless forloop.first %}mt4{% endunless %}">
+      {% if vol.startDate.size > 0 %}
+        <p class="faded">
+          <time datetime="{{ vol.startDate }}">{{ vol.startDate | date:from_to_format }}</time>
+          {{ from_to_separator }}
+          {% if vol.endDate.size > 0 %}
+            <time datetime="{{ vol.endDate }}">{{ vol.endDate | date:from_to_format }}</time>
+          {% else %}
+            <em>{{ present }}</em>
+          {% endif %}
+        </p>
+      {% endif %}
+      <h3 class="h4 faded">
+        {% capture position %}<span class="bc">{{ vol.position }}</span>{% endcapture %}
+        {% capture organization %}{% include link.html title=vol.organization href=vol.website span_class="bc" %}{% endcapture %}
+        {{ strings.resume.volunteer_title
+          | default:"<!--position--> at <!--organization-->"
+          | replace:"<!--position-->", position
+          | replace:"<!--organization-->", organization
+        }}
+      </h3>
+    </header>
+
+    {% include message.html text=vol.summary alt="" %}
+
+    <h4 class="sr-only">{{ strings.resume.highlights | default:"Highlights" }}</h4>
+    <ul>
+      {% for highlight in vol.highlights %}
+        <li>{{ highlight }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% if forloop.first %}</div>{% endif %}
+  {% endfor %}
+</section>
+{% endif %}
