@@ -1,10 +1,10 @@
 ---
 layout: list
 type: category
-title: Review
-slug: review
+title: Essay
+slug: essay
 sidebar: true
 order: 3
 description: >
-  Reviews on hardware/software
+  Essays about social issues, tech issues etc
 ---

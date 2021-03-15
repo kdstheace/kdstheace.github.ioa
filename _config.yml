@@ -40,14 +40,14 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/profile.png
+logo:                  /assets/img/profile.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
   name:                Dongsoo Kim
   email:               hiswing91@gmail.com
-  picture:             /assets/img/profile.png
+  picture:             /assets/img/profile.jpg
   social:
     # linkedin:        
     github:          kdstheace
@@ -176,7 +176,7 @@ kramdown:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:      UA-68290006-3
+# google_analytics:      
 
 # Set which comment system to use
 comments:
