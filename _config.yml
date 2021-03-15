@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://LazyRen.github.io
+url:                   https://kdstheace.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -20,20 +20,19 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  ko-KR, en-US
+lang:                  ko-KR, en-US, ja-JP
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Lazy Ren
+title:                 Daniel Kim
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Work Hard to be Lazy.
-  SW Engineer at Samsung Research.
+  Work Hard to grow and make a better world.
 
 # A shorter description for the sidebar.
 tagline:               >
-  Work Hard to be Lazy.
+  Make a better world with my skill
 
 # A list of keywords for your blog
 keywords:              []
@@ -41,19 +40,19 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/seattle.png
+logo:                  /assets/img/profile.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                DaeIn Lee
-  email:               daein0lee@gmail.com
-  picture:             /assets/img/seattle.png
+  name:                Dongsoo Kim
+  email:               hiswing91@gmail.com
+  picture:             /assets/img/profile.png
   social:
-    linkedin:        daein-lee-3b6ba9139
-    github:          lazyren
-    stackoverflow:   4294737
-    email:           daein0lee@gmail.com
+    # linkedin:        
+    github:          kdstheace
+    # stackoverflow:  
+    email:           hiswing91@gmail.com
 
 # Add links to the sidebar.
 # menu:
@@ -186,16 +185,11 @@ comments:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                lazyrengithub
+disqus:                kdstheaceeng
 
 # You must install utterances github app before use.(https://github.com/apps/utterances)
 # Make sure all variables are set properly. Check below link for detail.
 # https://utteranc.es/
-utterances:
-  repo:                "LazyRen/LazyRen.github.io"
-  issue-term:          "pathname"
-  label:               "Comments"
-  theme:               "dark-blue"
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -361,7 +355,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-google_site_verification: "zIn7l_GwuOi4WnyRQsdhI9Jpn6IAs0SLR_4HG8OZzsM"
+# google_site_verification: <verification-id>
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
