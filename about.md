@@ -18,14 +18,14 @@ order: 1
 そして、開発すること自体から感じられる達成感が大好きです！
 人が自由に自分のコンテンツを作り、ビジネスができるプラットホーム、つまり新しい生態系を
 作ることが私の夢です！<br>
-私のことが知りたい方はぜひ、この [履歴書](/resume/)をご覧ください。
+ぜひ、この [履歴書](/resume/)をご覧ください。
 
 ***
 
 <!--posts_list-->
 
 ***
-
+<iframe width="800" height="360" src="https://www.youtube.com/embed/iDjQSdN_ig8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## チャレンジ精神
 
 _My motto to live by._
