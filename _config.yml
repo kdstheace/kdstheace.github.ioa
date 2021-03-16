@@ -40,14 +40,14 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/profile.jpg
+logo:                  /assets/img/profile.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
   name:                Dongsoo Kim
   email:               hiswing91@gmail.com
-  picture:             /assets/img/profile.jpg
+  picture:             /assets/img/profile.png
   social:
     # linkedin:        
     github:          kdstheace
