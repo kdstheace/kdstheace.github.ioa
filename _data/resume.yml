@@ -6,6 +6,7 @@ basics:
   phone: "(+82) 010-5612-0881"
   website: "https://kdstheace.github.io/"
   summary: >
+    !Still on editing!
     <br>
     自分の手でITサービスを作り、それで世界を豊かにすることが夢で<br>
     その夢を叶えるために頑張っています。<br>
@@ -22,51 +23,35 @@ basics:
       url: "https://github.com/kdstheace"
 
 work:
-  - company: "SAP Labs Korea"
-    position: "HANA Core Developer"
-    website: https://www.sap.com/korea/about/labs-korea.html"
-    startDate: "2021-01-11"
-    endDate: ""
+  - company: "Industrial Bank of Korea"
+    position: "Intern @ Opo Branch"
+    website: "https://global.ibk.co.kr/"
+    startDate: "2019-06-20"
+    endDate: "2020-02-11"
     summary: >
-      SAP Labs Korea, a cornerstone of SAP HANA, now aims to bring the in-memory technology to the cloud where it acts as a single gateway to data of any size to harness the power of data wherever it resides and ensure the platform for intelligent enterprise.
+      Corporate credit & finance, Forex trading
     highlights:
-  - company: "Samsung Research"
-    position: "SW Engineer"
-    website: "https://research.samsung.com/"
+      - "Evaluate corporate financial statement"
+      - "Issuing LC/LG, NEGO, D/A, D/P"
+  - company: "Industrial Bank of Korea"
+    position: "Intern @ Strategic Planning Department"
+    website: "https://global.ibk.co.kr/"
     startDate: "2020-02-03"
     endDate: "2020-12-31"
     summary: >
-      Samsung Research is the advanced research and development (R&D) hub of Samsung Electronics. The hub leads the development of the future technologies with more than 10,000 researchers and developers working in overseas R&D centers.
+      .
     highlights:
       - "Software Capacity Building T/F"
-  - company: "Samsung Research"
+  - company: "INFINITT Healthcare"
     position: "Intern"
-    website: "https://research.samsung.com/"
-    startDate: "2019-06-24"
-    endDate: "2019-08-30"
+    website: "https://www.infinitt.com/"
+    startDate: "2016-07-01"
+    endDate: "2016-08-25"
     summary:
     highlights:
       - "Software engineering internship at Smart Device team."
       - "8 week internship to develop smart switch circuit PMU firmware with the purpose of increasing power efficiency."
-  - company: "LG CNS"
-    position: "Intern"
-    website: "https://www.lgcns.co.kr/"
-    startDate: "2019-01-03"
-    endDate: "2019-02-28"
-    summary:
-    highlights:
-      - "Software Engineering Internship at Development Platform team."
-      - "6 week internship to develop new Enterprise Application Platform pages."
-      - "Gained better understanding of overall web development."
-  - company: "Fortify Inc."
-    position: "Intern"
-    website: "https://fortify.pro/"
-    startDate: "2018-07-08"
-    endDate: "2018-08-24"
-    summary:
-    highlights:
-      - "Building responsive homepage for 'fortify.pro'."
-      - "Backend/frontend development and service usage analysis using mongoDB for Gaia Landscape Inc."
+
 volunteer:
   - organization: "Hanyang Mentoring Program"
     position: "Mentor"
@@ -78,31 +63,25 @@ volunteer:
       - "Data Structure; Teaching & helping sophomores on the data structure course."
       - "Database  Systems; Teaching & helping sophomores on the database system course."
       - "Awarded 'Hanyang Best Mentor' for mentoring Database Systems course."
-  - organization: "Hanmille, Foreigner Mentoring Program"
-    position: "Mentor"
-    website: ""
-    startDate: "2014-03-02"
-    endDate: "2014-12-18"
-    summary: "Mentoring & helping foreign students to easily adjust to Korea."
-    highlights:
+
 education:
-  - institution: "Hanyang University, Seoul"
-    area: "Computer Science & Engineering"
+  - institution: "Yonsei University"
+    area: "Business Administration"
     studyType: "Bachelor"
-    startDate: "2014-03-02"
-    endDate: "2020-02-21"
-    gpa: "4.0 (major 4.28) / 4.5"
+    startDate: "2013-03-02"
+    endDate: "2019-02-25"
+    gpa: "4.02 / 4.3"
     courses:
-      - "Concurrent Programming"
-      - "Data Science"
-      - "Operating Systems"
-      - "Computer Architecture"
-      - "Database Systems"
-      - "System Programming"
-  - certificate: "Engineer Information Processing (정보처리기사)"
-    date: "2019-11-22"
+      - "International Marketing"
+      - "Financial Management"
+      - "Human Resource Management"
+      - "Entrepreneurship"
+  - certificate: "Engineer Information Processing (情報処理技師)"
+    date: "2020-12-31"
+  - certificate: "Google Analytics Individual Qualification"
+    date: "2020-04-30"
 projects:
-  - title: "Bw-Tree Performance Boosting"
+  - title: "BoomBox"
     startDate: "2018-08-01"
     endDate: "2019-10-31"
     summary: "Evaluating cache / multi thread Performance of <a href='https://github.com/wangziqi2013/BwTree'>Open Bw-Tree</a> to find bottleneck and improvement performance."
