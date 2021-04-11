@@ -24,7 +24,7 @@ basics:
 
 work:
   - company: "Industrial Bank of Korea"
-    position: "Intern @ Opo Branch"
+    position: "Intern(Opo Branch)"
     website: "https://global.ibk.co.kr/"
     startDate: "2019-06-20"
     endDate: "2020-02-11"
@@ -34,14 +34,16 @@ work:
       - "Evaluate corporate financial statement"
       - "Issuing LC/LG, NEGO, D/A, D/P"
   - company: "Industrial Bank of Korea"
-    position: "Intern @ Strategic Planning Department"
+    position: "Intern(Strategic Planning Department)"
     website: "https://global.ibk.co.kr/"
-    startDate: "2020-02-03"
-    endDate: "2020-12-31"
+    startDate: "2018-12-15"
+    endDate: "2019-02-15"
     summary: >
-      .
+      "IBK BOX Platform TFT"
     highlights:
-      - "Software Capacity Building T/F"
+      - "IBK BOX Research, Planning"
+      - "Manage IBK BOX unit test"
+      - "Manage PG selection bidding "
   - company: "INFINITT Healthcare"
     position: "Intern"
     website: "https://www.infinitt.com/"
@@ -49,20 +51,17 @@ work:
     endDate: "2016-08-25"
     summary:
     highlights:
-      - "Software engineering internship at Smart Device team."
-      - "8 week internship to develop smart switch circuit PMU firmware with the purpose of increasing power efficiency."
+      - "2016-10: Dispatched in Chicago RSNA2016 as a marketer"
+      - "Financial analysis & Report"
 
 volunteer:
-  - organization: "Hanyang Mentoring Program"
+  - organization: "Yonsei Mentoring Program"
     position: "Mentor"
     website: ""
     startDate: "2018-03-02"
     endDate: "2018-12-21"
-    summary: "Mentoring for the major courses of CSE with juniors"
+    summary: "Mentoring for the major courses of Financial Management"
     highlights:
-      - "Data Structure; Teaching & helping sophomores on the data structure course."
-      - "Database  Systems; Teaching & helping sophomores on the database system course."
-      - "Awarded 'Hanyang Best Mentor' for mentoring Database Systems course."
 
 education:
   - institution: "Yonsei University"
@@ -80,6 +79,7 @@ education:
     date: "2020-12-31"
   - certificate: "Google Analytics Individual Qualification"
     date: "2020-04-30"
+
 projects:
   - title: "BoomBox"
     startDate: "2018-08-01"
