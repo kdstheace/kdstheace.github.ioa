@@ -116,15 +116,7 @@ projects:
     highlights:
       - "プラットフォームで出るデータを活用するビジネスサービス企画"
       - "単位テスト参加及び企画補助"
-  - title: "[企画] EXA"
-    startDate: "2020-01-29"
-    endDate: "2020-12-15"
-    summary: "成長コミュニティプラットフォーム"
-    url: "https://exaiting.com/"
-    highlights:
-    　- "週に一度読書REVIEWアップロード,共有"
-      - "Startupの実務者たちを招待しビジネスMBA教育サービスを提供"
-      - "学生たちはケーススタディをしながらビジネスソリューションをStartupに提供"
+
 awards:
   - title: "Hanyang Academic Achievement Award"
     awarder: "Hanyang Univ."
