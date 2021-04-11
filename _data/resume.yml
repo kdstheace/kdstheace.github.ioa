@@ -98,8 +98,8 @@ projects:
     summary: "大学生向けの学生管理及び科目お勧めシステム"
     url: "https://github.com/kdstheace/Project_CollegeCareerpath"
     highlights:
-      - "学生User：卒業までの履修単位・語学水準などをもとに科目のお勧め"
-      - "管理者User：学生たちの登録・変更、卒業条件の修正・管理等"
+      - "学生User-卒業までの履修単位・語学水準などをもとに科目のお勧め"
+      - "管理者User-学生たちの登録・変更、卒業条件の修正・管理等"
   - title: "[IT] StudyWise"
     startDate: "2021-02-15"
     endDate: ""
