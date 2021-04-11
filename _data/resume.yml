@@ -74,8 +74,7 @@ education:
     gpa: "4.02 / 4.3"
     courses:
       - "International Marketing"
-      - "Financial Management"
-      - "Human Resource Management"
+      - "Financial Management, HRM"
       - "Entrepreneurship"
   - certificate: "情報処理技師"
     date: "2020-12-31"
@@ -83,16 +82,16 @@ education:
     date: "2020-04-30"
 
 projects:
-  - title: "BoomBox"
+  - title: "BOOMBOX"
     startDate: "2020-12-25"
     endDate: "2021-03-25"
-    summary: ""
-    url: "https://kdstheace.github.io/tag-bwtree/"
+    summary: "ダンス動画の視聴、投稿、学ぶことができるプラットフォーム"
+    url: ""
     highlights:
-      - "Implementing update function based on the <a href='https://hyeontaek.com/papers/openbwtree-sigmod2018.pdf'>page</a>."
-      - "Make update function atomic & reduce call of traverse function."
-      - "Design TaS implemented Bw-Tree instead of CaS to reduce the overhead of failed CaS operations."
-  - title: "Wait-free Snapshot with Epoch Based Garbage Collection"
+      - "B"
+      - "機械学習(マシンラーニング)で動作の矯正及び練習カウント可能"
+      -
+  - title: "Project C.C"
     startDate: "2019-10-01"
     endDate: "2019-10-31"
     summary: "Concurrent Programming Course"
@@ -141,46 +140,53 @@ awards:
 #     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
 #     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 skills:
-  - name: "Kernel Development"
+  - name: "Web Development(Spring)"
+    level: "Master"
+    keywords:
+      - "Java"
+      - "Javascript"
+      - "HTML/CSS"
+      - "Oracle"
+  - name: "Web Development(Django)"
     level: "Intermediate"
     keywords:
-      - "Concurrent Programming"
-      - "Operating System"
-      - "C/C++"
+      - "Python"
+      - "SQLite"
+  - name: "AI & BigData"
+    level: "Intermediate"
+    keywords:
+      - "Azure"
+      - "R"
+      - "Python(Keras, Numpy, Pandas)"
   - name: "Algorithm"
     level: "Intermediate"
-  - name: "Web Development"
-    level: "Junior"
-    keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
   - name: "Sociability"
     level: "Master"
     keywords:
       - "Leadership"
       - "Affable"
 languages:
-  - language: "Korean"
+  - language: "日本語"
     fluency: "Native speaker"
-  - language: "English"
-    fluency: "Fluent"
+  - language: "韓国語"
+    fluency: "Native speaker"
+  - language: "英語"
+    fluency: "Native speaker"
+
 interests:
   - name: "Activity"
     keywords:
-      - "Tennis"
-      - "Snowboarding"
+      - "BreakDancing"
+      - "シルム（韓国相撲）"
       - "Cycling"
   - name: "Reading"
     keywords:
       - "J. R. R. Tolkien"
-      - "이영도"
-      - "전민희"
+      - "山岡荘八"
+      - "Albert Camus"
   - name: "Gaming"
     keywords:
       - "Board Games"
-      - "<a href='https://steamcommunity.com/id/lazyren'>Steam</a>"
-      - "<a href='http://www.companyofheroes.com/leaderboards#profile/steam/76561198031392006/standings'>Company of Heroes 2</a>"
 # references:
 #   - name: "Erlich Bachman"
 #     reference: >
