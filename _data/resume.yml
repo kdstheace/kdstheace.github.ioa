@@ -6,18 +6,10 @@ basics:
   phone: "(+82) 010-5612-0881"
   website: "https://kdstheace.github.io/"
   summary: >
-    !Still on editing!
-    編集中です！！！！！！！！！！！
-    <br>
-    自分の手でITサービスを作り、それで世界を豊かにすることが夢で<br>
-    その夢を叶えるために頑張っています。<br>
+    自分が開発したITサービスで世界を豊かにすることが夢で<br>
+    その夢を叶えるために挑戦を続けています。<br>
     無限成長とチームワーク、そして責任感を大事にして前に進んでいます。
-  # location:
-  #   address: "2712 Broadway St"
-  #   postalCode: "CA 94115"
-  #   city: "San Francisco"
-  #   countryCode: "US"
-  #   region: "California"
+
   profiles:
     - network: "Github"
       username: "kdstheace"
@@ -119,28 +111,23 @@ projects:
 
 awards:
   - title: "Yonsei Academic Achievement Award"
-    awarder: "Yonsei Univ."
+    awarder: "延世大学校"
     highlights:
       - "2018, 1st semester(Highest Honor)"
       - "2014, 1st semester"
       - "2013, 1st semester"
-  - title: "Hanyang Brain Scholarship"
-    awarder: "Hanyang Univ."
+  - title: "第49次国立外交院模擬国際会議 最優秀賞"
+    awarder: "韓国国立外交院"
     highlights:
-      - "2019, 1st semester"
-      - "2018, 1st/2nd semester"
-      - "2017, 2nd semester"
-  - title: "Win 2nd place in advanced group"
-    date: "2018-11-17"
-    awarder: "Hanyang Collegiate Programming Contest 2018"
-    summary: ""
+      - "主題: Ways to Strengthen the UN Sanction System to Address the Proliferation of WMD"
+      - "Representative of Egypt"
+  - title: "第5回 BestReport公募展 最優秀賞"
+    awarder: "延世大学校"
+    highlights:
+      - "主題: ゲーム理論で見た非核化協商"
+  - title: "第4回 優秀学習事例公募展 最優秀賞"
+    awarder: "延世大学校"
 
-# publications:
-#   - name: "Video compression for 3d media"
-#     publisher: ""
-#     releaseDate: "2014-10-01"
-#     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-#     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 skills:
   - name: "Web Development(Spring)"
     level: "Master"
