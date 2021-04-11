@@ -77,13 +77,13 @@ education:
       - "International Marketing"
       - "Financial Management, HRM"
       - "Entrepreneurship"
-  # - certificate: "情報処理技師"
-  #   date: "2020-12-31"
+  - certificate: "情報処理技師"
+    date: "2020-12-31"
   # - certificate: "Google Analytics Individual Qualification"
   #   date: "2020-04-30"
 
 projects:
-  - title: "[IT] BOOMBOX"
+  - title: "BOOMBOX"
     startDate: "2020-12-25"
     endDate: "2021-03-25"
     summary: "ダンス動画の視聴、投稿、学ぶことができるプラットフォーム"
@@ -92,7 +92,7 @@ projects:
       - "動画ストリーミングサービス"
       - "機械学習(マシンラーニング)で動作の矯正及び練習カウント可能"
       - "決済システム・プレミアムメンバーシップ等"
-  - title: "[IT] Project C.C"
+  - title: "Project C.C"
     startDate: "2020-08-15"
     endDate: "2020-12-05"
     summary: "大学生向けの学生管理及び科目お勧めシステム"
@@ -100,7 +100,7 @@ projects:
     highlights:
       - "学生User-卒業までの履修単位・語学水準などをもとに科目のお勧め"
       - "管理者User-学生たちの登録・変更、卒業条件の修正・管理等"
-  - title: "[IT] StudyWise"
+  - title: "StudyWise"
     startDate: "2021-02-15"
     endDate: ""
     summary: "StudyGroupマッチングサービス"
@@ -108,7 +108,7 @@ projects:
     highlights:
       - "StudyGroup管理、ミーティング管理"
       - "Tutor－StudyGroupマッチング"
-  - title: "[IT/企画] IBK BOX"
+  - title: "IBK BOX"
     startDate: "2018-12-29"
     endDate: "2019-02-15"
     summary: "Business Solutions/Finance Platform"
@@ -121,8 +121,9 @@ awards:
   - title: "Yonsei Academic Achievement Award"
     awarder: "Yonsei Univ."
     highlights:
-      - "2018, 2nd semester"
-      - "2017, 2nd semester(Highest Honor)"
+      - "2018, 1st semester(Highest Honor)"
+      - "2014, 1st semester"
+      - "2013, 1st semester"
   - title: "Hanyang Brain Scholarship"
     awarder: "Hanyang Univ."
     highlights:
