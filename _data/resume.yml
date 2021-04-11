@@ -83,29 +83,29 @@ education:
     date: "2020-04-30"
 
 projects:
-  - title: "BOOMBOX"
+  - title: "[IT] BOOMBOX"
     startDate: "2020-12-25"
     endDate: "2021-03-25"
     summary: "ダンス動画の視聴、投稿、学ぶことができるプラットフォーム"
-    url: ""
+    url: "https://github.com/kdstheace/Project_BOOMBOX"
     highlights:
-      - "B"
+      - "動画ストリーミングサービス"
       - "機械学習(マシンラーニング)で動作の矯正及び練習カウント可能"
-      -
-  - title: "Project C.C"
-    startDate: "2019-10-01"
-    endDate: "2019-10-31"
+      - "決済システム・プレミアムメンバーシップ等"
+  - title: "[IT] Project C.C"
+    startDate: "2020-08-15"
+    endDate: "2020-12-05"
     summary: "Concurrent Programming Course"
-    url: "https://github.com/LazyRen/2019-Concurrent-Programming/tree/master/project3"
+    url: "https://github.com/kdstheace/Project_CollegeCareerpath"
     highlights:
       - "Implementing Wait-free Snapshot based on the textbook 'The Art of Multiprocessor Programming'"
       - "Concurrent update & scan function implemented"
       - "Implement epoch based garbage collection to prevent memory leak & concurrent GC."
-  - title: "Enhanced xv6"
-    startDate: "2018-03-02"
-    endDate: "2018-06-22"
+  - title: "[IT] StudyWise"
+    startDate: "2021-02-15"
+    endDate: ""
     summary: "Operating System Course"
-    url: "https://github.com/LazyRen/2018-Operating-Systems"
+    url: "https://github.com/kdstheace/Project_STUDYWISE"
     highlights:
       - "Implement MLFQ & Stride scheduling instead of round robin scheduling."
       - "Implement Light Weight Process that can be used with most of POSIX-thread functions."
@@ -146,8 +146,8 @@ skills:
     keywords:
       - "Java"
       - "Javascript"
+      - "Oracle(DB)"
       - "HTML/CSS"
-      - "Oracle"
   - name: "Web Development(Django)"
     level: "Intermediate"
     keywords:
