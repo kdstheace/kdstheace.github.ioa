@@ -7,6 +7,7 @@ basics:
   website: "https://kdstheace.github.io/"
   summary: >
     !Still on editing!
+    編集中です！！！！！！！！！！！
     <br>
     自分の手でITサービスを作り、それで世界を豊かにすることが夢で<br>
     その夢を叶えるために頑張っています。<br>
@@ -158,8 +159,8 @@ skills:
       - "Azure"
       - "R"
       - "Python(Keras, Numpy, Pandas)"
-  - name: "Algorithm"
-    level: "Intermediate"
+  - name: "Economics"
+    level: "Master"
   - name: "Sociability"
     level: "Master"
     keywords:
