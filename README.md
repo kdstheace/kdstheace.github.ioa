@@ -1,6 +1,6 @@
 # Dongsoo's Blog
 
-## [About Me](https://lazyren.github.io/about/)
+## [About Me](https://kdstheace.github.io/about/)
 
 Hello, there!<br>
 This blog is to post whatever I feel like to.<br>
@@ -11,5 +11,5 @@ Please feel free to contact me for any questions!
 ## About Hydejack
 
 This blog is based on the jekyll theme **[Hydejack Pro](https://hydejack.com/)**.<br>
-In order to use Pro version of Hydejack, you must *[purchase the license](https://hydejack.com/download/)*.<br>
-Please give credit to the author of the **Hydejack**, *[qwtel](https://github.com/qwtel)*.
+In order to use Pro version of Hydejack, you must _[purchase the license](https://hydejack.com/download/)_.<br>
+Please give credit to the author of the **Hydejack**, _[qwtel](https://github.com/qwtel)_.

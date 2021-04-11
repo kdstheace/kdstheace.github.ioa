@@ -2,12 +2,12 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              Dongsoo Kim
-  email:             hiswing91@gmail.com
+  name: Dongsoo Kim
+  email: hiswing91@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
+  about: |
     Ever-growing IT engineer<br>
     Studied Web developing with STS(JAVA, MyBatis, Oracle etc)<br>
     Data Science with Python, R<br>
@@ -18,7 +18,7 @@ author1:
 
   # This photo will be used in the about section
   picture:
-    path:            /assets/img/profile.jpg
+    path: /assets/img/profile.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     # srcset:
     #   1x:
@@ -28,11 +28,11 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    # linkedin:        
-    github:          kdstheace
-    stackoverflow:   4294737
-    email:           hiswing91@gmail.com
-    # rss:            
+    # linkedin:
+    github: kdstheace
+    stackoverflow: https://stackoverflow.com/users/15602887/daniel-kim
+    email: hiswing91@gmail.com
+    # rss:
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
@@ -66,7 +66,6 @@ author1:
     # paypal:          <username>
     # download:        <url>
     # keybase:         <username>
-
 # Another author (optional)
 # author2:
 #   name:              <firtname> <lastname>

@@ -1,5 +1,5 @@
 basics:
-  name: "金東秀"
+  name: "金東秀（キム・ドンス）"
   label: "Student"
   picture: /assets/img/Dongsoo.jpg
   email: "hiswing91@gmail.com"
@@ -23,27 +23,28 @@ basics:
       url: "https://github.com/kdstheace"
 
 work:
-  - company: "Industrial Bank of Korea"
-    position: "Intern(Opo Branch)"
+  - company: "韓国企業銀行"
+    position: "インターン"
     website: "https://global.ibk.co.kr/"
     startDate: "2019-06-20"
     endDate: "2020-02-11"
     summary: >
-      Corporate credit & finance, Forex trading
+      企業金融＆貿易金融
     highlights:
-      - "Evaluate corporate financial statement"
-      - "Issuing LC/LG, NEGO, D/A, D/P"
-  - company: "Industrial Bank of Korea"
-    position: "Intern(Strategic Planning Department)"
+      - "企業財務審査"
+      - "輸出入信用状(LC)発給審査"
+      - "NEGO, D/A, D/P, LG発行等"
+  - company: "韓国企業銀行"
+    position: "インターン(戦略企画部)"
     website: "https://global.ibk.co.kr/"
     startDate: "2018-12-15"
     endDate: "2019-02-15"
     summary: >
-      "IBK BOX Platform TFT"
+      IBK BOX Platform TFT
     highlights:
-      - "IBK BOX Research, Planning"
-      - "Manage IBK BOX unit test"
-      - "Manage PG selection bidding "
+      - "金融データを活用し、企業のSCM、法律自問ソリューション企画"
+      - "IBK BOX Platform Web単位テスト企画補助"
+      - "Payment Gateway 社の入札審査企画及び進行管理"
   - company: "INFINITT Healthcare"
     position: "Intern"
     website: "https://www.infinitt.com/"
@@ -51,21 +52,22 @@ work:
     endDate: "2016-08-25"
     summary:
     highlights:
-      - "2016-10: Dispatched in Chicago RSNA2016 as a marketer"
-      - "Financial analysis & Report"
+      - "2016-10: 北米RSNA2016で派遣され、PACS製品試演・マーケティング"
+      - "IT：SW単位テスト、技術トレンド分析報告書作成、マニュアル翻訳"
+      - "競争会社SECTRA(Sweden)財務分析発表"
 
 volunteer:
-  - organization: "Yonsei Mentoring Program"
+  - organization: "延世大学メンタリングプログラム"
     position: "Mentor"
     website: ""
     startDate: "2018-03-02"
     endDate: "2018-12-21"
-    summary: "Mentoring for the major courses of Financial Management"
+    summary: "専攻科目である「財務管理」のメンタリング"
     highlights:
 
 education:
-  - institution: "Yonsei University"
-    area: "Business Administration"
+  - institution: "延世大学校"
+    area: "経営学"
     studyType: "Bachelor"
     startDate: "2013-03-02"
     endDate: "2019-02-25"
@@ -75,16 +77,16 @@ education:
       - "Financial Management"
       - "Human Resource Management"
       - "Entrepreneurship"
-  - certificate: "Engineer Information Processing (情報処理技師)"
+  - certificate: "情報処理技師"
     date: "2020-12-31"
   - certificate: "Google Analytics Individual Qualification"
     date: "2020-04-30"
 
 projects:
   - title: "BoomBox"
-    startDate: "2018-08-01"
-    endDate: "2019-10-31"
-    summary: "Evaluating cache / multi thread Performance of <a href='https://github.com/wangziqi2013/BwTree'>Open Bw-Tree</a> to find bottleneck and improvement performance."
+    startDate: "2020-12-25"
+    endDate: "2021-03-25"
+    summary: ""
     url: "https://kdstheace.github.io/tag-bwtree/"
     highlights:
       - "Implementing update function based on the <a href='https://hyeontaek.com/papers/openbwtree-sigmod2018.pdf'>page</a>."
