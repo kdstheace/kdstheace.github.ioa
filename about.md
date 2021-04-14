@@ -37,10 +37,10 @@ _My motto to live by._
 
 ![small_cheer](/assets/img/cheer_group.png)
 
-I had experienced teamwork and leadership during 3 years at college cheerleading team.<br>
-by overcoming intense training sessions and schedules with my colleague, I'd learned to reinforce bond<br>
-and work together efficiently. And once I became a captain of its team, I could acquire the sense of<br>
-leadership which can notice each member's strenghths and weaknewsses and allocate the task according<br>
+I had experienced teamwork and leadership during 3 years at college cheerleading team.
+by overcoming intense training sessions and schedules with my colleague, I'd learned to reinforce bond
+and work together efficiently. And once I became a captain of its team, I could acquire the sense of
+leadership which can notice each member's strenghths and weaknewsses and allocate the task according
 to their traits, and can cheer up colleague during the hardship.
 
 ## 国際感覚
