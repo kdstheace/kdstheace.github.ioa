@@ -32,15 +32,12 @@ order: 1
 
 _My motto to live by._
 
-> “Working hard to be lazy basically means investing the extra effort (working hard) at first so that it will pay off in the long run (be lazy).”
+> “I had learnt to seek intensity - more of life, a concentrated sense of life - Nina Berberova”
 
 ## Teamwork & Leadership
 
 ![small_cheer](/assets/small_cheer.jpg)
-The lazy man will try to accomplish 2 hours worth of work in 1 hour’s time but sometimes at the expense of the work’s quality.<br>
-Think of it as **efficiency = quality/time** taken (referencing speed = distance/over).<br>
-If the time taken is reduced, either the job’s quality has to be lowered or the efficiency must be increased. Efficiency really relates to the work process.<br>
-So in order to keep the quality the same and reduce the time taken, the work process must be changed.
+.
 
 ## 国際感覚
 
