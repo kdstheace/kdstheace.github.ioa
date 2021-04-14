@@ -27,7 +27,7 @@ order: 1
 
 <!-- <iframe width="100%" height="360" src="https://www.youtube.com/embed/iDjQSdN_ig8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-## チャレンジ精神
+## Challenge & Pioneer
 
 _My motto to live by._
 
@@ -43,17 +43,17 @@ and work together efficiently. And once I became a captain of its team, I could 
 leadership which can notice each member's strenghths and weaknewsses and allocate the task according
 to their traits, and can cheer up colleague during the hardship.
 
-## 国際感覚
+## Think Globally
 
 ![globalVill](/assets/globalVill.jpg)
-After evaluating what you do, you may have some ideas of what you want to improve or modify.<br>
-Break it down to its core.
+Since when I was student, I have tried to experience different culture and language as much as I can
+and learned how to share thought and harmonize.
+With participating several international conferences such as Model United Nations, debating competitions,
+and studying international politics and economics, I could build up my skill of analysis for global affairs.
 
 ## EVER-GROWTH
 
-## Refine yourself
-
-![briefinfo](/assets/briefinfo.JPG)
+![briefinfo](/assets/img/briefinfo2.png)
 
 ---
 
