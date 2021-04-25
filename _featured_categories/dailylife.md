@@ -4,7 +4,7 @@ type: category
 title: Daily Life
 slug: dailylife
 sidebar: true
-order: 2
+order: 3
 description: >
   Daily life
 ---
