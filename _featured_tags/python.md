@@ -1,10 +1,10 @@
 ---
 layout: tag-list
 type: tag
-title: Python Study
+title: Machine Learning
 slug: python
 category: devlog
 sidebar: true
 description: >
-   Posts about my Python Study
+  Posts about Machine Learning/AI Study
 ---

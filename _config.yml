@@ -432,5 +432,4 @@ jekyll_compose:
 feed:
   categories:
     - devlog
-    - review
-    - dailylife
+    - essay
