@@ -135,6 +135,7 @@ skills:
       - "Java"
       - "Javascript"
       - "Oracle(DB)"
+      - "MySQL"
       - "HTML/CSS"
   - name: "Web Development(Django)"
     level: "Intermediate"
