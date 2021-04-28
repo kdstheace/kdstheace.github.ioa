@@ -6,5 +6,5 @@ slug: algorithm
 category: devlog
 sidebar: true
 description: >
-   Algorithm study / Problem solutions
+  Algorithm study / Problem solutions
 ---
