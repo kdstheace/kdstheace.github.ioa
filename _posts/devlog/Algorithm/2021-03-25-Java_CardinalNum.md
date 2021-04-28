@@ -56,3 +56,28 @@ public class CardConvRev {
 	}
 }
 ```
+
+もしくは、
+基数変換メソッドで配列の逆転させる方法もあります。
+
+```java
+	static int cardConvR(int x, int r, char[] d) {
+		int digits = 0;
+		String dchar = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+		do {
+			d[digits++] = dchar.charAt(x % r);
+			x /= r;
+
+		} while (x != 0);
+
+		for(int i = 0; i < digits / 2; i++) {
+			char t = d[i];
+			d[i] = d[digits-1-i];
+			d[digits-1-i] = t;
+		}
+		return digits;
+	}
+```
+
+この場合は、メインメソッドで結果を出力する時、ただ順番で出力してもオッケー！
