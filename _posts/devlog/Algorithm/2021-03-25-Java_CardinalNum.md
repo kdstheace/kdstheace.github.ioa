@@ -6,9 +6,9 @@ category: devlog
 tags: algorithm
 ---
 
-aa
-
 ```java
+import java.util.Scanner;
+
 public class CardConvRev {
 	static int cardConvR(int x, int r, char[] d) {
 		int digits = 0;
@@ -24,11 +24,35 @@ public class CardConvRev {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int no;     //변환하는 정수
-		int cd;     // 기수
-		int dno;    // 변환 후의 자릿수
-		int retry;  // 다시 한 번?
+		int no; 	//변환하는 정수
+		int cd; 	// 기수
+		int dno; 	// 변환 후의 자릿수
+		int retry; 	// 다시 한 번?
 		char[] cno = new char[32];
+
+		System.out.println("10진수를 기수로 변환");
+		do {
+			do {
+				System.out.print("변환하는 음이 아닌 정수: ");
+				no = sc.nextInt();
+			}while(no < 0);
+
+			do {
+				System.out.print("몇 진수로 변환?: ");
+				cd = sc.nextInt();
+			}while(cd < 2 || cd > 36);
+
+			dno = cardConvR(no, cd, cno);
+
+			System.out.print("result: ");
+			for(int i = dno - 1; i >= 0; i--) {
+				System.out.print(cno[i]);
+			}
+			System.out.println();
+
+			System.out.print("Try more? (1=yes / 0=no)");
+			retry = sc.nextInt();
+		}while(retry == 1);
 	}
 }
 ```
