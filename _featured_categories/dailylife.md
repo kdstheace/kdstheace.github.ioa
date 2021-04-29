@@ -4,7 +4,7 @@ type: category
 title: 日常・自己分析
 slug: dailylife
 sidebar: true
-order: 3
+order: 4
 description: >
   Daily life
 ---
