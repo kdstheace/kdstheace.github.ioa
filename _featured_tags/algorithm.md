@@ -6,5 +6,6 @@ slug: algorithm
 category: devlog
 sidebar: true
 description: >
-  Algorithm study / Problem solutions
+  タイトルに[言語/難易度]がついています。
+  ex) Python, Very Difficult -> [Python/上]
 ---
