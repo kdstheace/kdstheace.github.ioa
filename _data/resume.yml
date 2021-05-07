@@ -76,7 +76,7 @@ education:
 
 projects:
   - title: "BOOMBOX"
-    startDate: "2020-12-25"
+    startDate: "2020-12-15"
     endDate: "2021-03-25"
     summary: "ダンス動画の視聴、投稿、学ぶことができるプラットフォーム"
     url: "https://github.com/kdstheace/Project_BOOMBOX"
