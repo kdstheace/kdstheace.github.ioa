@@ -33,6 +33,8 @@ _My motto to live by._
 
 > “I had learnt to seek intensity - more of life, a concentrated sense of life" - Nina Berberova
 
+> 人の可能性は考え次第 - 自分
+
 ## Teamwork & Leadership
 
 ![small_cheer](/assets/img/cheer_group.png)
