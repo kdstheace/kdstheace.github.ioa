@@ -1,7 +1,7 @@
 ---
 layout: list
 type: category
-title: 日常・自己分析
+title: Diary
 slug: dailylife
 sidebar: true
 order: 4
