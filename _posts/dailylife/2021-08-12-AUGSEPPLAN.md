@@ -1,25 +1,26 @@
 ---
 layout: post
-title: "My First 俳句"
+title: "After 2 real projects"
 category: dailylife
 ---
 
-## 初めて俳句を作ってみた！大満足！
+## After 2 real-world projects as a freelancer
 
-<img src='/assets/img/post_data/dailylife/haiku.JPG' alt='haiku' width='100%'><br>
+From June, I've just finished two real-world projects as a freelancer.
+It was really great opportunity for me to experience how the real projects go and how the business and communications occurs 
+between customers and SI company(WAVIEW). 
+
+Both projects requires new language skills such as Python Flask, PHP, and other utilities and server knowledge that I've never seen before. 
+Everything was so new for me and those days at work were priceless. I've learnt a lot, grown up a lot and understand overall
+communications and teamwork as a developer. Even though I barely slept during those months, every moment was precious and full of fun. 
 
 
+Anyhow, after two months, I decided to learn more of establishing infrastructure for web application and extend my knowledge from web application to
+mobile application. Furthermore, skills for data engineering and AI are the key factors to become a developer that I wanted for a long time.
 
+So here's my plan for upcoming two months.
 
-高校生の時から日本ならではの静的な俳句の雰囲気やその余韻が好きだったので
-いつか作ってみたかった。日本の人に見られるとどう思われるか分からないが、
-自分の考えを込めて、俳句のルールを守りながら作ったことに意味があるだろう。
+<img src='/assets/img/post_data/dailylife/PlanAugSep.JPG' alt='haiku' width='100%'><br>
 
-次は背景になる絵も書きながら作ろうかな。。。
-
-今本当にやりたかったIT技術を勉強し、開発プロジェクトまでやっている私に、
-様々な問題を自分なりの方法で乗り越えながら挑戦をし続けている私に、
-「見えない先だとしても、一度決めたら必ずや成し遂げる」私の信念と
-「挑戦する事態も美しいことだから、頑張れ！」という気持ちをこめた俳句だ。ｗ
 
 
