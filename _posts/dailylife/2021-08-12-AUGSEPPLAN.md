@@ -1,10 +1,10 @@
 ---
+title: After 2 real projects
 layout: post
-title: "After 2 real projects"
 category: dailylife
 ---
 
-## After 2 real-world projects as a freelancer
+## After 2 real-world projects as a freelancer.
 
 From June, I've just finished two real-world projects as a freelancer.
 It was really great opportunity for me to experience how the real projects go and how the business and communications occurs 
@@ -21,6 +21,4 @@ mobile application. Furthermore, skills for data engineering and AI are the key 
 So here's my plan for upcoming two months.
 
 <img src='/assets/img/post_data/dailylife/PlanAugSep.JPG' alt='haiku' width='100%'><br>
-
-
-
+ 
